@@ -1,0 +1,44 @@
+#poporders_block_header{
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    z-index: 1000;
+    border-radius: 3px;
+    border: 1px solid white;
+    display: flex;
+    transition: all 0.7s ease-out;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
+}
+
+#poporders_block_header .img{
+    min-width: 100px!important;
+    height: 100px;
+}
+#poporders_block_header .img img{
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#poporders_block_header .data{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 300px;
+    color: black;
+}
+
+#poporders_block_header .bold{
+    font-weight: bold;
+}
+
+#poporders_block_header .xclose{
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+    font-size: 15px;
+}
