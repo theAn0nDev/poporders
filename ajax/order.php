@@ -1,9 +1,5 @@
 <?php
 
-/*
-*   AJAX treatment
-*/
-
 require_once(dirname(__FILE__) . '/../../../config/config.inc.php');
 require('../class/LastsOrders.php');
 
